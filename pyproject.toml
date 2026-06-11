@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zerodb-supabase"
+version = "0.1.0"
+description = "Drop-in Supabase Python client replacement backed by ZeroDB. Same API, free cloud database."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [
+    {name = "AINative Studio", email = "dev@ainative.studio"},
+]
+keywords = [
+    "supabase",
+    "supabase-alternative",
+    "supabase-py",
+    "supabase-python",
+    "supabase-client",
+    "database",
+    "postgres",
+    "rest-api",
+    "zerodb",
+    "ainative",
+    "baas",
+    "backend-as-a-service",
+    "storage",
+    "file-storage",
+    "s3-compatible",
+    "edge-functions",
+    "serverless-functions",
+    "realtime",
+    "vector-database",
+    "embeddings",
+    "ai-database",
+    "free-database",
+    "firebase-alternative",
+    "neon-alternative",
+    "planetscale-alternative",
+    "mcp",
+    "claude",
+    "cursor",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Database",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "requests>=2.28",
+]
+
+[project.urls]
+Homepage = "https://github.com/AINative-Studio/zerodb-supabase"
+Documentation = "https://docs.ainative.studio"
+Repository = "https://github.com/AINative-Studio/zerodb-supabase"
+Issues = "https://github.com/AINative-Studio/zerodb-supabase/issues"
+
+[tool.setuptools.packages.find]
+include = ["zerodb_supabase*"]
